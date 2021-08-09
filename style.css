@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header {
+    overflow: hidden;
+}
+
+#menu {
+    list-style: none;
+    overflow: hidden;
+}
+
+header #logo {
+    float: left;
+}
+
+header #menu {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    width: 100px;
+    line-height: 90px;
+    text-align: center;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#menu li a:hover, .active {
+    color: #d37573 !important;
+    border-bottom: 5px solid #d37573;
+}
+
+section {
+    background-image: url('assets/undraw_compose_music_ovo2\ 1.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#taylor {
+    position: absolute;
+    bottom: 10%;
+    left: 48%;
+    width: 600px;
+}
+
+
+#quote {
+    position: absolute;
+    bottom: 25%;
+    padding-bottom: 10px;
+}
+
+#quote h3 {
+    color: #d37573;
+    position: absolute;
+    background-position-y: 0;
+}
+
+#quote em{
+    line-height: 27px;
+}
+
+#joinBtn {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #d37573;
+    border: none;
+    position: absolute;
+    top: 150%;
+}
+
+#joinBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#kontak li {
+    list-style: none;
+    line-height: 15px;
+    font-family: poppins;
+    color: black;
+    line-height: 25px;
+}
+
+

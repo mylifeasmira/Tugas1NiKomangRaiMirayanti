@@ -1,0 +1,137 @@
+
+*{
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    color: white;
+}
+
+ #body {
+    height: 100%;
+    margin: 0;
+} 
+
+#wrapper{
+    height: 100%;
+    background-color: black;  
+}
+
+#menu img{
+    width: 30px;
+    height: 30px;
+}
+
+#menu{
+    overflow: hidden;
+}
+
+#menu{
+    background: #000000;
+    width: 100%;
+    overflow: auto;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu a{
+    width: 180px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #000000;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+}
+
+#menu a:hover{
+    background: skyblue;
+    color: black;
+}
+
+#background{
+    background-image: url(assets/blackbackground.jpg);
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#header{
+    overflow: hidden;
+    position: relative;
+}
+
+#title{
+    position: absolute;
+    bottom: 35%;
+    left: 55%;
+}
+
+#header h1{
+    float: left;
+}
+
+#who h3{
+    text-align: center;
+    margin: 50px 30px;
+}
+
+#naration p{
+    text-align: justify;
+    line-height: 30px;
+    margin: 50px 30px;
+}
+
+#share{
+    text-align: center;
+    margin: 70px 30px ;
+}
+
+#world{
+    margin: 0px 50px 30px 150px;
+    
+}
+
+#taylor-award{
+    text-align: center;
+    margin: 70px 30px 50px 30px ;
+}
+
+.award img{
+    width: 225px;
+    height: 225px
+}
+
+#award-list{
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.award{
+    margin: 5px;
+    border: none;
+    float: left;
+    width: 230px;
+}
+
+.detail{
+    padding: 15px;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+
